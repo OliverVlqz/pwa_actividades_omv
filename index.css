@@ -1,0 +1,59 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+.main-container {
+  max-width: 520px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.intro {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+.activities-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.activity-card {
+  display: block;
+  background: #f3f6fa;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1rem;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.activity-card:hover {
+  background: #e6f0fa;
+  box-shadow: 0 4px 16px rgba(0, 120, 212, 0.08);
+}
+.activity-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+.activity-desc {
+  font-size: 1rem;
+  color: #555;
+}
